@@ -1,0 +1,78 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Shadows+Into+Light&display=swap');
+
+body {
+       font-family:"Imbue", serif;
+       margin-left: 10%; /* Remove all body margins */
+       margin-right: 10%;
+       font-size: 120%;
+}
+.Header {
+      display: flex;
+      background-image:url(https://pix10.agoda.net/hotelImages/271133/-1/791d166c7ebf08c983cdd94ad2369389.jpg?ca=8&ce=1); 
+      background-size: cover;
+      color:white;
+      padding: 100px;
+      justify-content: space between;
+      align-items: center;
+      font-size: xx-large;
+}
+header h1 {
+     font-family:"Imbue", serif;
+     font-size: 150%;
+     font-weight: lighter;
+     color: inherit;
+      text-align: centre;
+}
+nav {
+      background-color: #0a85d8;
+      border-top: solid black 1px;
+      border-bottom: solid black 1px;
+      display: flex; /* Display the children of this element as flexible boxes */
+      align-items: center; /* Align child flexible boxes in the vertical center */
+
+}
+ nav p {
+     text-align: center;
+     flex-basis: 100px; /* Give each paragraph the same basic width */
+     flex-grow:1; /* Allow each paragraph to grow evenly to fill up the parent nav element */
+ }
+ nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2em;
+}
+nav a:hover {
+      color: red;
+  }
+footer{
+      background-color: #0a85d8; /*background or background-color both work */
+      position: fixed; /* fixed to the viewport*/
+      bottom: 0; /* start 0 pixels from the bottom of the viewport */
+      left: 0; /* start 0 pixels from the left of the viewport */
+      width: 100%; /* set the width to 100% of the viewport */
+      border-top: solid black 1px; /*Have to put unit, e.g. px or %, if not zero*/
+}
+h1, h2 {
+      color: #60759f;
+      font-family: "Imbue", serif;
+}
+
+.main {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 4em; /*Larger margin to allow for the footer*/
+}
+.center {
+       text-align: center; 
+}
+.wrap {
+      float: right;
+} 
+.caption {
+      font-style: italic;
+      font-size: small;
+}
+
